@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "2u5TxSc4OT5sQfm96Wu6gbwgsPA2rwdTerbOnaKwXtgaqMo9mk3TKTHJIOTDGJCI6AkIFlPd4NDuJAkmSCYBLw==",
+  "success": true,
+  "projectFilePath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.api/Signup.domain.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/silviocressoni/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/silviocressoni/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/silviocressoni/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/silviocressoni/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/silviocressoni/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/silviocressoni/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

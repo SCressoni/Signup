@@ -1,0 +1,184 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.Api/Signup.domain.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.Api/Signup.domain.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.Api/Signup.domain.Api.csproj",
+        "projectName": "Signup.domain.Api",
+        "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.Api/Signup.domain.Api.csproj",
+        "packagesPath": "/Users/silviocressoni/.nuget/packages/",
+        "outputPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/silviocressoni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain.Infra/Signup.Domain.Infra.csproj": {
+                "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain.Infra/Signup.Domain.Infra.csproj"
+              },
+              "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj": {
+                "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain.Infra/Signup.Domain.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain.Infra/Signup.Domain.Infra.csproj",
+        "projectName": "Signup.Domain.Infra",
+        "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain.Infra/Signup.Domain.Infra.csproj",
+        "packagesPath": "/Users/silviocressoni/.nuget/packages/",
+        "outputPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain.Infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/silviocressoni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj": {
+                "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj",
+        "projectName": "Signup.Domain",
+        "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj",
+        "packagesPath": "/Users/silviocressoni/.nuget/packages/",
+        "outputPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/silviocressoni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
