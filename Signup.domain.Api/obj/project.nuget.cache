@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2u5TxSc4OT5sQfm96Wu6gbwgsPA2rwdTerbOnaKwXtgaqMo9mk3TKTHJIOTDGJCI6AkIFlPd4NDuJAkmSCYBLw==",
+  "dgSpecHash": "r7dhXHh1qPtEsjcmp5PP9fhVv79ggHGKpsClA1J8xJbnlbvBz6EuqC3JTWQHJ4l9hz8byJkLkLi6pX6N0hv8Lg==",
   "success": true,
   "projectFilePath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.api/Signup.domain.Api.csproj",
   "expectedPackageFiles": [
+    "/Users/silviocressoni/.nuget/packages/flunt/1.0.4/flunt.1.0.4.nupkg.sha512",
     "/Users/silviocressoni/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/silviocressoni/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/silviocressoni/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

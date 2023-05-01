@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Flunt/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -76,6 +85,9 @@
       "Signup.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Flunt": "1.0.4"
+        },
         "compile": {
           "bin/placeholder/Signup.Domain.dll": {}
         },
@@ -99,6 +111,18 @@
     }
   },
   "libraries": {
+    "Flunt/1.0.4": {
+      "sha512": "zsKA3Wol1+UeQBYtXuO56+ua6DBUpD5dcp3iAa86W5WcMLOWBMaDXKdqIrrLNgQUOW/U/svecb4ldgqwnC9XDQ==",
+      "type": "package",
+      "path": "flunt/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.1.0.4.nupkg.sha512",
+        "flunt.nuspec",
+        "lib/netstandard2.0/Flunt.dll"
+      ]
+    },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
@@ -227,12 +251,12 @@
     "Signup.Domain/1.0.0": {
       "type": "project",
       "path": "../Signup.domain/Signup.Domain.csproj",
-      "msbuildProject": "../Signup.Domain/Signup.Domain.csproj"
+      "msbuildProject": "../Signup.domain/Signup.Domain.csproj"
     },
     "Signup.Domain.Infra/1.0.0": {
       "type": "project",
       "path": "../Signup.domain.infra/Signup.Domain.Infra.csproj",
-      "msbuildProject": "../Signup.Domain.Infra/Signup.Domain.Infra.csproj"
+      "msbuildProject": "../Signup.domain.infra/Signup.Domain.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -248,11 +272,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.Api/Signup.domain.Api.csproj",
+      "projectUniqueName": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.api/Signup.domain.Api.csproj",
       "projectName": "Signup.domain.Api",
-      "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.Api/Signup.domain.Api.csproj",
+      "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.api/Signup.domain.Api.csproj",
       "packagesPath": "/Users/silviocressoni/.nuget/packages/",
-      "outputPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.Api/obj/",
+      "outputPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/silviocressoni/.nuget/NuGet/NuGet.Config"
@@ -267,11 +291,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain.Infra/Signup.Domain.Infra.csproj": {
-              "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain.Infra/Signup.Domain.Infra.csproj"
+            "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.infra/Signup.Domain.Infra.csproj": {
+              "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.infra/Signup.Domain.Infra.csproj"
             },
-            "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj": {
-              "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj"
+            "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain/Signup.Domain.csproj": {
+              "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain/Signup.Domain.csproj"
             }
           }
         }

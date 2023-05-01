@@ -1,0 +1,5 @@
+/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/obj/Debug/net6.0/Signup.Domain.csproj.AssemblyReference.cache
+/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/obj/Debug/net6.0/Signup.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/obj/Debug/net6.0/Signup.Domain.AssemblyInfoInputs.cache
+/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/obj/Debug/net6.0/Signup.Domain.AssemblyInfo.cs
+/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/obj/Debug/net6.0/Signup.Domain.csproj.CoreCompileInputs.cache

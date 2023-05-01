@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Y7duK3s7GjzUdR3MkH4hZbSWvW1DWg9hU0Lh5F8hMn/8wzp01q4jfFSyTV+cNXHc3ZzeoeVeFzqpzLtZ/eb2bA==",
+  "dgSpecHash": "tJP9d0E4lrVAw1E3dQo9NvKbS+M7lhxjqD7U7xsWepDMxdUu0Fjj5XHxLX5GORto7rISZKWSwE9lxLjYbqng3g==",
   "success": true,
   "projectFilePath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.tests/Signup.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/silviocressoni/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
+    "/Users/silviocressoni/.nuget/packages/flunt/1.0.4/flunt.1.0.4.nupkg.sha512",
     "/Users/silviocressoni/.nuget/packages/microsoft.codecoverage/16.11.0/microsoft.codecoverage.16.11.0.nupkg.sha512",
     "/Users/silviocressoni/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/Users/silviocressoni/.nuget/packages/microsoft.net.test.sdk/16.11.0/microsoft.net.test.sdk.16.11.0.nupkg.sha512",

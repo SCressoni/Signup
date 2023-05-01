@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "42dlDBLd+JUhQiYT5VNh+Alxp5j59NUK1pbHZMZXkFUovvjqdP3O8kSVgrPlYOPmVHhJLYqSrWIuPd6M6oIdvw==",
+  "dgSpecHash": "ydYg7t7UygONx+JHJ5vxaXCO9u7VukAG5RTsLI12N1rHgGvxacDGgBLQ5ZanoXqiumeJkTxOHOEcr1gbHcjcXw==",
   "success": true,
-  "projectFilePath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain/Signup.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/silviocressoni/.nuget/packages/flunt/1.0.4/flunt.1.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

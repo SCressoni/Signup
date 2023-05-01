@@ -2,23 +2,23 @@ namespace Signup.Domain.Entities;
 
 public class User : Entity
 {
-    public User(string firstName, string surname, string email)
+    public User(string name, string email, DateTime birthDate, DateTime signupDate)
     {
-        Id = Guid.NewGuid();
-        FirstName = firstName;
-        Surname = surname;
+        Name = name;
         Email = email;
+        BirthDate = birthDate;
+        SignupDate = signupDate;
     }
-    
-    public Guid Id { get; set; }
-    public string FirstName { get; private set; }
-    public string Surname { get; private set; }
+    public string Name { get; private set; }
     public string Email { get; private set; }
+    public DateTime BirthDate { get; private set; }
+    public DateTime SignupDate { get; private set; }
 
     public override string ToString()
     {
-        return "First Name : " + FirstName
-                               + "Surname : " + Surname
-                               + "Email : " + Email;
+        return "First Name : " + Name
+                               + "Email : " + Email
+                               + "Birth Date : " + BirthDate
+                               + "Signup Date : " + SignupDate;
     }
 }

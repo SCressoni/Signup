@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain.Tests/Signup.Domain.Tests.csproj": {}
+    "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.tests/Signup.Domain.Tests.csproj": {}
   },
   "projects": {
-    "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain.Tests/Signup.Domain.Tests.csproj": {
+    "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.tests/Signup.Domain.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain.Tests/Signup.Domain.Tests.csproj",
+        "projectUniqueName": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.tests/Signup.Domain.Tests.csproj",
         "projectName": "Signup.Domain.Tests",
-        "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain.Tests/Signup.Domain.Tests.csproj",
+        "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.tests/Signup.Domain.Tests.csproj",
         "packagesPath": "/Users/silviocressoni/.nuget/packages/",
-        "outputPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain.Tests/obj/",
+        "outputPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain.tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/silviocressoni/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj": {
-                "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj"
+              "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain/Signup.Domain.csproj": {
+                "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain/Signup.Domain.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj": {
+    "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain/Signup.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj",
+        "projectUniqueName": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain/Signup.Domain.csproj",
         "projectName": "Signup.Domain",
-        "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/Signup.Domain.csproj",
+        "projectPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain/Signup.Domain.csproj",
         "packagesPath": "/Users/silviocressoni/.nuget/packages/",
-        "outputPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.Domain/obj/",
+        "outputPath": "/Users/silviocressoni/Documents/Code/Dotnet/Projects/SignUp/Signup.domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/silviocressoni/.nuget/NuGet/NuGet.Config"
@@ -111,6 +111,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
